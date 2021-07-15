@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Pseudo Classes part 1</title>
+
+    <link href="/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Register</h1>
+    <form id="register-form" method="GET">
+        <div>
+            <input class="input-item" type="text" name="fullname" placeholder="Full Name" required>
+        </div>
+        <div>
+            <input class="input-item" type="email" name="email" placeholder="Email" value="srv@test.com" disabled>
+        </div>
+        <div>
+            <input class="input-item" type="number" name="age" placeholder="Age" min="18" max="46">
+        </div>
+        <div>
+            <input class="input-item" type="password" name="password" placeholder="Password" required maxlength="8">
+        </div>
+        <div>
+            <input class="input-item" type="password" name="confirm-password" placeholder="Confirm Password" required maxlength="8">
+        </div>
+        <div>
+            <button id="btn-submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>

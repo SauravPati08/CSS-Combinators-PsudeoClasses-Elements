@@ -1,0 +1,42 @@
+body {
+    margin: 10px;
+    padding: 100px;
+    background-color: lightgray;
+}
+article {
+    padding: 18px;
+    margin-bottom: 36px;
+    font-size: 24px;
+    line-height: 1.4;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.heading {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Selecting the first paragraph of each article */
+
+article > p:first-of-type{
+    background-color: lightcoral;
+}
+
+/* Selecting the first paragraph of each article */
+
+article > p:last-of-type{
+    background-color: lightslategray;
+}
+
+/* Selecting the second paragraph of each article */
+
+article > p:nth-of-type(2){
+    background-color: lightgreen;
+}
+
+article > p:nth-last-of-type(2){
+    background-color: lightpink;
+}
